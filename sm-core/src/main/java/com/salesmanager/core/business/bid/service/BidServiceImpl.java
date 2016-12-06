@@ -11,6 +11,7 @@ import com.salesmanager.core.business.generic.service.SalesManagerEntityServiceI
 
 @Service("bidService")
 public class BidServiceImpl extends SalesManagerEntityServiceImpl<Long, Bid> implements BidService {
+  @Autowired
   public BidServiceImpl(final BidDao bidDao) {
     super(bidDao);
   }
