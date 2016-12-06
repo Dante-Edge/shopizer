@@ -81,6 +81,7 @@ response.setDateHeader ("Expires", -1);
 							<p>
 								<jsp:include page="/pages/shop/common/catalog/addToCartProduct.jsp" />
 							</p>
+							<p><jsp:include page="/pages/shop/common/catalog/bid.jsp" /></p>
 						</div>
 
 					</div>

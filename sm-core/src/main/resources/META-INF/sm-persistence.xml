@@ -79,7 +79,7 @@
 		
 		<class>com.salesmanager.core.business.payments.model.Transaction</class>
 		<class>com.salesmanager.core.business.shipping.model.ShippingOrigin</class>
-		
+		<class>com.salesmanager.core.business.bid.model.Bid</class>
 		
 	</persistence-unit>
 </persistence>
